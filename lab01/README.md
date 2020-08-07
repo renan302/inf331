@@ -11,12 +11,10 @@
   ![Foodmart1](imagens/foodmart3.PNG)
 
 <br>
-### Arquivo do Projeto
-  ![foodmart.ows](orange/foodmart.ows)
   
 ## Projeto Playstore
 ### Imagem do Projeto
-  ![imagem1](orange/playstore.PNG)
+  ![imagem1](imagens/playstore.PNG)
 <br> 
 <br>
 ### Gráfico(s) de Análise
