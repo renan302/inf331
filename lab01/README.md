@@ -6,28 +6,26 @@
 
 ## Projeto Orange / Regras de Associação para Foodmart
 ### Imagens do Projeto
-<br>
+<br><br>
   ![Foodmart1](imagens/foodmart1.PNG)
   ![Foodmart1](imagens/foodmart2.PNG)
   ![Foodmart1](imagens/foodmart3.PNG)
-
-<br>
+<br><br>
 ## Arquivo do Projeto
 ![Foodmart](orange/foodmart.ows)
-<br>
+<br><br>
 ## Projeto Orange / Análise de Dados do Google PlayStore
-<br>
   ![imagem1](imagens/playstore.PNG)
   ![imagem2](imagens/playstore2.PNG)
-<br>
+<br><br>
 ## Arquivo do Projeto
 ![PlayStore](orange/playstore.ows)
-<br>
+<br><br>
 ## Projeto de Composição de Componentes para Recomendação
-<br>
+<br><br>
 ### Imagens do Projeto
   ![imagem1](imagens/recomendar_produtos.PNG)
  ## Projeto de Composição de Componentes para Pedido
-<br>
+<br><br>
 ### Imagens do Projeto
   ![imagem1](imagens/recomendar_produtos.PNG)
