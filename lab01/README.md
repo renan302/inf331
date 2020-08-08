@@ -24,8 +24,8 @@
 ## Projeto de Composição de Componentes para Recomendação
 <br><br>
 ### Imagens do Projeto
-  ![imagem1](imagens/recomendar_produtos.PNG)
+  ![imagem1](imagens/recomendar_produtos.png)
  ## Projeto de Composição de Componentes para Pedido
 <br><br>
 ### Imagens do Projeto
-  ![imagem1](imagens/recomendar_produtos.PNG)
+  ![imagem1](imagens/recomendar_produtos.png)
