@@ -28,4 +28,4 @@
  ## Projeto de Composição de Componentes para Pedido
 <br><br>
 ### Imagens do Projeto
-  ![imagem1](imagens/recomendar_produtos.png)
+  ![imagem1](imagens/realizar_pedido.png)
