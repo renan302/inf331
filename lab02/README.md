@@ -1,9 +1,7 @@
 ## Tarefa sobre catálogo de componentes
-<br><br>
 ![Notebook](notebook/components-01-catalog.ipynb)
 
 ## Tarefa Web Components 1
-<br><br>
 ~~~html
 <dcc-trigger  label="Mundo" value="Trump é contaminado por covid19" action="noticia/mundo/politica" ></dcc-trigger>
 <dcc-trigger label="Brasil P" value="Presidente é contaminado por covid19" action="noticia/brasil/politica" ></dcc-trigger>
@@ -14,7 +12,6 @@
 <dcc-lively-talk duration="0s" character="patient" speech="Estou lendo: "> <subscribe-dcc topic="noticia/#"></subscribe-dcc> </dcc-lively-talk>
 ~~~
 ## Tarefa Web Components 2
-<br><br>
 ~~~html
 <dcc-trigger label="Buscar Noticia" action="next/rss"></dcc-trigger>
 <dcc-rss publish="noticias/science" source="https://www.wired.com/category/science/feed"><subscribe-dcc topic="next/rss" role="step"></subscribe-dcc></dcc-rss>
