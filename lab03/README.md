@@ -4,6 +4,12 @@
    >Renan Alves da Silva
 <br><br>
 
+### Tarefa 1
+<br><br>
+  ![Tarefa1](images/Tarefa1.png)
+### Tarefa 2
+<br><br>
+  ![Tarefa2](images/Tarefa2.png)
 ### Tarefa 3
 <br><br>
 ### Tela1
