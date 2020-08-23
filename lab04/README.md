@@ -11,57 +11,56 @@
 ## Tarefa 3
   ![Tarefa3](images/image3.jpg)
 ## Tarefa 4
-### Serviço Exemplo
+### Serviço Consulta CEP
 
-* **Título do serviço**: `XKCD`
-* **Breve descrição**:
+* **Título do serviço**: `Consultar CEP
+* **Breve descrição**: O serviço consulta CEP recebe como parâmetro o CEP desejado e o padrão de resposta, neste caso JSON, o mesmo retornará o endereço completo, caso o CEP seja válido.
   Serviço que recebe o número de uma das tirinhas do XKCD e retorna os dados da tirinha e a URL para a sua imagem.
-* **URL completa da requisição**: `http://xkcd.com/35/info.0.json`
+* **URL completa da requisição**: https://viacep.com.br/ws/PARÂMETRO CEP/json
 * **Cabeçalho HTTP da chamada**:
 ~~~http
-GET /http://xkcd.com/35/info.0.json HTTP/2
-Host: any-api.com:8443
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:79.0) Gecko/20100101 Firefox/79.0
-Accept: */*
-Accept-Language: pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3
+GET /https://viacep.com.br/ws/13481645/json HTTP/2
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
 Accept-Encoding: gzip, deflate, br
-Origin: https://any-api.com
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
 Connection: keep-alive
-Referer: https://any-api.com/xkcd_com/xkcd_com/console/_comicId_info_0_json/GET
+Host: viacep.com.br
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
 ~~~
 * **Cabeçalho HTTP da resposta**:
 ~~~http
-access-control-allow-origin: *
-age: 0
-cache-control: max-age=300
-content-encoding: br
-content-type: application/json
-date: Sat, 22 Aug 2020 20:22:49 GMT
-etag: W/"5f3f46c3-1e8"
-expires: Sat, 22 Aug 2020 20:27:49 GMT
-last-modified: Fri, 21 Aug 2020 04:00:03 GMT
-server: cloudflare
-vary: Accept-Encoding
-via: 1.1 varnish
-x-cache: MISS
-x-cache-hits: 0
-x-final-url: https://xkcd.com/35/info.0.json
-x-served-by: cache-pao17426-PAO
-x-timer: S1598127769.058105,VS0,VE255
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, X-Request-With, X-Requested-By
+Access-Control-Allow-Methods: GET, OPTIONS
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 86400
+Cache-Control: max-age=3600
+Cache-Control: public
+Connection: keep-alive
+Content-Type: application/json; charset=utf-8
+Date: Sun, 23 Aug 2020 20:00:48 GMT
+Expires: Sun, 23 Aug 2020 21:00:48 GMT
+Pragma: public
+Server: nginx/1.18.0
+Transfer-Encoding: chunked
 ~~~
 * **Conteúdo da resposta**:
 ~~~json
 {
-  "month": "1",
-  "num": 35,
-  "link": "",
-  "year": "2006",
-  "news": "",
-  "safe_title": "Sheep",
-  "transcript": "Heading: Another from my high-school notebooks.\n[[A sheep and a potted saguaro cactus linked by an arcing yellow electricity bolt, drawn on graph paper]]\n{{title text: I think it's the sheep zapping the cactus and not vice-versa}}",
-  "alt": "I think it's the sheep zapping the cactus and not vice-versa",
-  "img": "https://imgs.xkcd.com/comics/sheep.jpg",
-  "title": "Sheep",
-  "day": "1"
+  "cep": "13481-745",
+  "logradouro": "Rua Celso Andrade",
+  "complemento": "",
+  "bairro": "Jardim Residencial Victório Lucato",
+  "localidade": "Limeira",
+  "uf": "SP",
+  "ibge": "3526902",
+  "gia": "4170",
+  "ddd": "19"
 }
 ~~~
