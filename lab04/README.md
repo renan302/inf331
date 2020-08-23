@@ -5,16 +5,12 @@
 <br><br>
 
 ## Tarefa 1
-<br><br>
   ![Tarefa1](images/image1.jpg)
 ## Tarefa 2
-<br><br>
   ![Tarefa2](images/image2.jpg)
 ## Tarefa 3
-<br><br>
   ![Tarefa3](images/image3.jpg)
 ## Tarefa 4
-<br><br>
 ### Serviço Exemplo
 
 * **Título do serviço**: `XKCD`
