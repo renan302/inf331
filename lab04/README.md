@@ -16,7 +16,7 @@
 * **Título do serviço**: `Consultar CEP
 * **Breve descrição**: O serviço consulta CEP recebe como parâmetro o CEP desejado e o padrão de resposta, neste caso JSON, o mesmo retornará o endereço completo, caso o CEP seja válido.
   Serviço que recebe o número de uma das tirinhas do XKCD e retorna os dados da tirinha e a URL para a sua imagem.
-* **URL completa da requisição**: https://viacep.com.br/ws/PARÂMETRO CEP/json
+* **URL completa da requisição**: https://viacep.com.br/ws/cep/json
 * **Cabeçalho HTTP da chamada**:
 ~~~http
 GET /https://viacep.com.br/ws/13481645/json HTTP/2
