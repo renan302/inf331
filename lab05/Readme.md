@@ -7,13 +7,12 @@
 
 ## Tarefa 2
 
-><div id="root"></div>
->
->const Setvalue = () => {
+> <div id="root"></div>
+> const Setvalue = () => {
 >    const [name, setName] = React.useState();
 >    return (<div><input type="text" placeHolder="Digite um texto" onChange={(e) => setName(e.target.value)} /> <br /><h2>{name}</h2></div>)}
 >
->const elemento = <Setvalue />
+> const elemento = <Setvalue />
 >
->ReactDOM.render(elemento,
+> ReactDOM.render(elemento,
 >    document.getElementById("root"));
